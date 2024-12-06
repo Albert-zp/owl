@@ -1,0 +1,1570 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.earth.cc/2024/9/001//"
+     xml:base="http://www.earth.cc/2024/9/001//"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-17="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#">
+    <owl:Ontology rdf:about="http://www.earth.cc/2024/9/001/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI标签"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI标签的包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI标签的包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI标签"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI的属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI的属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#属于"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI分类"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地铁线路"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#城市标志性建筑"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#生活圈"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI的标签 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI的标签">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#标签"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI标签"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI神话传说 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI神话传说">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#神话传说"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#神话传说"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI美食 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI美食">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#美食"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地方美食"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#交通 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#交通">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地铁线路"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#作者 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#作者"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#作者称号 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#作者称号">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者称号"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#创作 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#创作">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#别名 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#别名">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI别名"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#名句 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#名句">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词名句"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#城市标志性建筑属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#城市标志性建筑属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#属于"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#城市标志性建筑"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#子POI -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#子POI">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#对应地点 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#对应地点">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#属于"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#指代 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#指代">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI别名"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI简称"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#朝代包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#朝代包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#朝代"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#标志性建筑包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#标志性建筑包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#城市标志性建筑"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#标签 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#标签"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#模型 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#模型">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#3D模型"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#父POI -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#父POI">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#生活圈的包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#生活圈的包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#生活圈"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#神话传说 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#神话传说"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#神话传说属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#神话传说属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#属于"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#神话传说"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#称号 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#称号">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者称号"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#美食 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#美食"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#城市标志性建筑"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#属于"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划美食 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划美食">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#美食"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地方美食"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词专题包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词专题包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词专题"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词体裁包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词体裁包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词体裁"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#作者"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#属于"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#朝代"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者称号包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者称号包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者称号"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词名句"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词标签"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词名句作者 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词名句作者">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#作者"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词名句"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词名句属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词名句属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#属于"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词名句"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#属于"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词标签包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词标签包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#包含"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词标签"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词的属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词的属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#属于"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#朝代"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词专题"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词体裁"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#邻近 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#邻近">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#3D模型属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#3D模型属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#属于"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#3D模型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#ID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#ID">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI三级分类"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI分类"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者称号"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#url -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#url">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#中心经纬度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#中心经纬度"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#内容 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#内容">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#名句 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#名句">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词名句"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地址 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地址">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#引导经纬度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#引导经纬度"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#电话号码 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#电话号码"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI一级分类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI一级分类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI三级分类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI三级分类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI二级分类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI二级分类">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI分类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI分类 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI分类"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI别名 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI别名"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI品牌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI品牌"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI标签 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI标签"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI简称 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI简称"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#世界遗产 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#世界遗产"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#乡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#乡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#乡级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#乡级行政区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#乡级行政区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#传统节日 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#传统节日">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#节日"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#公交线路 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#公交线路"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#公历节日 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#公历节日">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#节日"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县级市 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县级市">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县级行政区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县级行政区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县辖区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县辖区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#乡级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地方美食 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地方美食"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地级市 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地级市">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地级行政区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地级行政区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地铁线路 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地铁线路"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#城市介绍 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#城市介绍"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#城市标志性建筑 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#城市标志性建筑"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#天气 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#天气"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#季节 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#季节"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#市辖区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#市辖区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#文化传承 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#文化传承"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#旅游城市 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#旅游城市"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#旅游路线 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#旅游路线"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#旗 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#旗">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#朝代 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#朝代"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#林区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#林区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#民族乡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#民族乡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#乡级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#民族苏木 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#民族苏木">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#乡级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#火车线路 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#火车线路"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#焦点交通情况 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#焦点交通情况"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#物质文化遗产 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#物质文化遗产">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#世界遗产"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#特别行政区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#特别行政区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#省级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#特区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#特区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#生活圈 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#生活圈"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#电影作品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#电影作品"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#盟 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#盟">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#直辖市 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#直辖市">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#省级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#省 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#省">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#省级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#省级行政区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#省级行政区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#短视频 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#短视频"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#神话传说 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#神话传说"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#自治区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#自治区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#省级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#自治县 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#自治县">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#自治州 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#自治州">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#自治旗 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#自治旗">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#航班 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#航班"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#节日 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#节日"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#节气 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#节气"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#苏木 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#苏木">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#乡级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#著名景点 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#著名景点"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#行政区划"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#街道 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#街道">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#乡级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词专题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词专题"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词体裁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词体裁"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者称号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者称号"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词名句 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词名句"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词标签 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词标签"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#路书 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#路书"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#镇 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#镇">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#乡级行政区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#长途汽车线路 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#长途汽车线路"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#非物质文化遗产 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#非物质文化遗产">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#世界遗产"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#音乐作品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#音乐作品"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#3D模型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#3D模型"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#三鲜豆皮 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#三鲜豆皮">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地方美食"/>
+        <untitled-ontology-17:name>武汉三鲜豆皮</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#九江市 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#九江市">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地级市"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#庐山市"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#江西省"/>
+        <untitled-ontology-17:name>九江市</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#九江庐山瀑布群 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#九江庐山瀑布群">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#庐山"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#庐山市"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#风景名胜"/>
+        <untitled-ontology-17:name>九江庐山瀑布群</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#司门口黄鹤楼站 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#司门口黄鹤楼站">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉地铁5号线"/>
+        <untitled-ontology-17:邻近 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼"/>
+        <untitled-ontology-17:name>司门口黄鹤楼站</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#唐朝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#唐朝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#朝代"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#崔颢"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#望庐山瀑布"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#李白"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#杜甫"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#登高"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼诗词"/>
+        <untitled-ontology-17:name>唐朝</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#四大名楼之一 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#四大名楼之一">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI标签"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼"/>
+        <untitled-ontology-17:name>四大名楼之一</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#夔州 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#夔州">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#登高"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#奉节县"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#夜景赞 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#夜景赞">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI标签"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼"/>
+        <untitled-ontology-17:name>夜景赞</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#奉节县 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#奉节县">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#崔颢 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#崔颢">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+        <untitled-ontology-17:创作 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼诗词"/>
+        <untitled-ontology-17:名句 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼诗词名句"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#唐朝"/>
+        <untitled-ontology-17:name>崔颢</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#庐山 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#庐山">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#望庐山瀑布"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#九江庐山瀑布群"/>
+        <untitled-ontology-17:name>庐山</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#庐山市 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#庐山市">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#县级市"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#九江市"/>
+        <untitled-ontology-17:name>庐山市</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#望庐山瀑布 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#望庐山瀑布">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+        <untitled-ontology-17:作者 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#李白"/>
+        <untitled-ontology-17:对应地点 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#庐山"/>
+        <untitled-ontology-17:name>望庐山瀑布</untitled-ontology-17:name>
+        <untitled-ontology-17:内容>日照香炉生紫烟，遥看瀑布挂前川。
+飞流直下三千尺，疑是银河落九天。</untitled-ontology-17:内容>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#望庐山瀑布名句 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#望庐山瀑布名句">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词名句"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#望庐山瀑布"/>
+        <untitled-ontology-17:内容>飞流直下三千尺，疑是银河落九天。</untitled-ontology-17:内容>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#李杜 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#李杜">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者称号"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#李白"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#杜甫"/>
+        <untitled-ontology-17:name>李杜</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#李白 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#李白">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+        <untitled-ontology-17:作者称号 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗仙"/>
+        <untitled-ontology-17:name>李白</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#杜甫 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#杜甫">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者"/>
+        <untitled-ontology-17:创作 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#登高"/>
+        <untitled-ontology-17:名句 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#登高名句"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#唐朝"/>
+        <untitled-ontology-17:称号 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗圣"/>
+        <untitled-ontology-17:name>杜甫</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武昌区 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武昌区">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#市辖区"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉市"/>
+        <untitled-ontology-17:name>武昌区</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉地铁5号线 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉地铁5号线">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地铁线路"/>
+        <untitled-ontology-17:name>武汉地铁5号线</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉市 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉市">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地级市"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武昌区"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉市标志性建筑"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点黄鹤楼"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼诗词"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#湖北省"/>
+        <untitled-ontology-17:name>武汉市</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉市标志性建筑 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉市标志性建筑">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#城市标志性建筑"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉市"/>
+        <untitled-ontology-17:name>武汉市标志性建筑</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉麻辣鸭脖 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉麻辣鸭脖">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地方美食"/>
+        <untitled-ontology-17:name>武汉麻辣鸭脖</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#江西省 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#江西省">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#省"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#九江市"/>
+        <untitled-ontology-17:name>江西省</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#湖北省 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#湖北省">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#省"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉市"/>
+        <untitled-ontology-17:name>湖北省</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#热干面 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#热干面">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#地方美食"/>
+        <untitled-ontology-17:name>热干面</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#登高 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#登高">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+        <untitled-ontology-17:作者 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#杜甫"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#登高名句"/>
+        <untitled-ontology-17:对应地点 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#夔州"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#唐朝"/>
+        <untitled-ontology-17:name>登高</untitled-ontology-17:name>
+        <untitled-ontology-17:内容>风急天高猿啸哀，渚清沙白鸟飞回。
+
+无边落木萧萧下，不尽长江滚滚来。
+
+万里悲秋常作客，百年多病独登台。
+
+艰难苦恨繁霜鬓，潦倒新停浊酒杯。</untitled-ontology-17:内容>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#登高名句 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#登高名句">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词名句"/>
+        <untitled-ontology-17:作者 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#杜甫"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#登高"/>
+        <untitled-ontology-17:内容>无边落木萧萧下，不尽长江滚滚来。</untitled-ontology-17:内容>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗仙 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗仙">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者称号"/>
+        <untitled-ontology-17:name>诗仙</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗圣 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗圣">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词作者称号"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#杜甫"/>
+        <untitled-ontology-17:name>诗圣</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点黄鹤楼 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点黄鹤楼">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼诗词"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉市"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼"/>
+        <untitled-ontology-17:name>诗词地点黄鹤楼</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#风景名胜 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#风景名胜">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI一级分类"/>
+        <untitled-ontology-17:name>风景名胜</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#首义 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#首义">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#生活圈"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼"/>
+        <untitled-ontology-17:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3346</untitled-ontology-17:ID>
+        <untitled-ontology-17:name>首义</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <untitled-ontology-17:交通 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉地铁5号线"/>
+        <untitled-ontology-17:别名 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼公园-黄鹤楼"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点黄鹤楼"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武昌区"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉市标志性建筑"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#风景名胜"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#首义"/>
+        <untitled-ontology-17:标签 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#四大名楼之一"/>
+        <untitled-ontology-17:标签 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#夜景赞"/>
+        <untitled-ontology-17:标签 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#5A景区"/>
+        <untitled-ontology-17:模型 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼模型"/>
+        <untitled-ontology-17:父POI rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼公园"/>
+        <untitled-ontology-17:神话传说 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼传说-仙桃亭"/>
+        <untitled-ontology-17:神话传说 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼传说-诗仙搁笔"/>
+        <untitled-ontology-17:神话传说 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼传说-辛氏楼"/>
+        <untitled-ontology-17:美食 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#三鲜豆皮"/>
+        <untitled-ontology-17:美食 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉麻辣鸭脖"/>
+        <untitled-ontology-17:美食 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#热干面"/>
+        <untitled-ontology-17:邻近 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#司门口黄鹤楼站"/>
+        <untitled-ontology-17:name>黄鹤楼</untitled-ontology-17:name>
+        <untitled-ontology-17:中心经纬度>114.30246690538195, 30.544648980034722</untitled-ontology-17:中心经纬度>
+        <untitled-ontology-17:地址>湖北省武汉市武昌区蛇山西山坡特1号</untitled-ontology-17:地址>
+        <untitled-ontology-17:引导经纬度>114.3076609157986, 30.54255989583333</untitled-ontology-17:引导经纬度>
+        <untitled-ontology-17:电话号码>027-88875096;027-88877332</untitled-ontology-17:电话号码>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼传说-仙桃亭 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼传说-仙桃亭">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#神话传说"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼"/>
+        <untitled-ontology-17:name>黄鹤楼传说-仙桃亭</untitled-ontology-17:name>
+        <untitled-ontology-17:内容>传说中吕洞宾跨鹤来到江夏黄鹤楼下，他手中的拂尘变成了一棵结满果实的仙桃树。吕洞宾便在黄鹤楼下卖这些能治百病的仙桃。人们争先恐后地抢购仙桃，却没人是把仙桃带给老人吃的，他失望地一拳打断了仙桃树。后来只有一个青年轿夫向吕洞宾买仙桃给身患重病的老母。吕洞宾被他的孝心感动，变出了两个仙桃，轿夫的老母果然百病消除，最后母子两人还乘着桃树变成的仙鹤升天了。黄鹤楼下因此建了一座仙桃亭，武汉的百姓也世代传诵着轿夫孝母的故事。</untitled-ontology-17:内容>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼传说-诗仙搁笔 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼传说-诗仙搁笔">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#神话传说"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼"/>
+        <untitled-ontology-17:name>黄鹤楼传说-诗仙搁笔</untitled-ontology-17:name>
+        <untitled-ontology-17:内容>崔颢在登黄鹤楼时写下了饱含自己怀才不遇、浓浓乡愁的《黄鹤楼》：昔人已乘黄鹤去，此地空余黄鹤楼。黄鹤一去不复返，白云千载空悠悠。晴川历历汉阳树，芳草萋萋鹦鹉洲。日暮乡关何处是，烟波江上使人愁”。这首诗让后来登上黄鹤楼的李白感叹：“眼前有景道不得，崔颢题诗在上头”。</untitled-ontology-17:内容>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼传说-辛氏楼 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼传说-辛氏楼">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#神话传说"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼"/>
+        <untitled-ontology-17:name>黄鹤楼传说-辛氏楼</untitled-ontology-17:name>
+        <untitled-ontology-17:内容>从前有位姓辛的人，卖酒为业。有一天，来了一位身材魁伟，但衣着褴褛的道士（即纯阳帝君吕洞宾祖师），神色从容地问辛氏：“可以给我一杯酒喝吗？”辛氏不因对方衣着褴褛而有所怠慢，急忙盛了一大杯酒奉上。如此过了半年，辛氏并不因为道士付不出酒钱而显露厌倦的神色，依然每天请他喝酒。有一天道士告诉辛氏说：“我欠了你很多酒钱，没有办法还你。”于是从篮子里拿出橘子皮，画了一只鹤在墙上，因为橘皮是黄色的，所画鹤也呈黄色。座中人只要拍手歌唱，墙上的黄鹤便会随着歌声，合着节拍，蹁跹起舞，酒店里的客人看到这种奇妙的事都付钱观赏。如此过了十年多，辛氏累积了很多财富。有一天那位衣着褴褛的道士又飘然来到酒店，辛氏上前致谢说，我愿意供养您，满足您的一切需求。道士笑着回答说：我哪里是为了这个而来呢？接着便取出笛子吹了几首曲子，没多久，只见朵朵白云自空而下，画上的黄鹤随着白云飞到客人面前，客人便跨上鹤背，乘着白云飞上天去了，辛氏为了感谢及纪念这位道士，便用十年赚下的银两在黄鹄矶上修建了一座楼阁；起初人们称之为“辛氏楼”，后来便称为“黄鹤楼”。</untitled-ontology-17:内容>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼公园 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼公园">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI"/>
+        <untitled-ontology-17:子POI rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼"/>
+        <untitled-ontology-17:name>黄鹤楼公园</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼公园-黄鹤楼 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼公园-黄鹤楼">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI别名"/>
+        <untitled-ontology-17:指代 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼"/>
+        <untitled-ontology-17:name>黄鹤楼公园-黄鹤楼</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼模型 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼模型">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#3D模型"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼"/>
+        <untitled-ontology-17:name>黄鹤楼模型</untitled-ontology-17:name>
+        <untitled-ontology-17:url>www.mxnavi.com</untitled-ontology-17:url>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼诗词 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼诗词">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词"/>
+        <untitled-ontology-17:作者 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#崔颢"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼诗词名句"/>
+        <untitled-ontology-17:对应地点 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#诗词地点黄鹤楼"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#唐朝"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#武汉市"/>
+        <untitled-ontology-17:name>黄鹤楼</untitled-ontology-17:name>
+        <untitled-ontology-17:内容>昔人已乘黄鹤去，此地空余黄鹤楼。
+黄鹤一去不复返，白云千载空悠悠。
+晴川历历汉阳树，芳草萋萋鹦鹉洲。
+日暮乡关何处是？烟波江上使人愁。</untitled-ontology-17:内容>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼诗词名句 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼诗词名句">
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#崔颢"/>
+        <untitled-ontology-17:属于 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼诗词"/>
+        <untitled-ontology-17:name>黄鹤楼诗词名句</untitled-ontology-17:name>
+        <untitled-ontology-17:内容>昔人已乘黄鹤去，此地空余黄鹤楼。
+黄鹤一去不复返，白云千载空悠悠。</untitled-ontology-17:内容>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#5A景区 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#5A景区">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#POI标签"/>
+        <untitled-ontology-17:包含 rdf:resource="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#黄鹤楼"/>
+        <untitled-ontology-17:name>5A景区</untitled-ontology-17:name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
