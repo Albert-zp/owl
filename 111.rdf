@@ -6,7 +6,8 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:untitled-ontology-17="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#">
+     xmlns:untitled-ontology-17="http://www.semanticweb.org/fz_zp/ontologies/2024/9/untitled-ontology-17#"
+     xml:lang="zh">
     <owl:Ontology rdf:about="http://www.earth.cc/2024/9/001/"/>
     
 
